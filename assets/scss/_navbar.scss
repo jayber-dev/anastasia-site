@@ -1,0 +1,35 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    
+    
+    .left-side-nav{
+        flex-direction: row;
+        width: 50vw;
+        padding: 0px;
+
+        li {
+            padding-left: 10%;
+            list-style: none;
+        }
+    }
+
+    .right-side-nav {
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0px;
+
+        li:first-child {
+            padding-right: 20px;
+        }
+        li {
+            padding-right: 10%;
+            list-style: none;
+            text-decoration: none;
+            flex-direction: row;
+        }
+    }
+}
