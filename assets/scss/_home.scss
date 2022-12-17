@@ -12,8 +12,8 @@
     margin-right: 5%;
 
     .left-card-container-1 {
-        width: 33%;   
-        height: 20%;
+        width: 49%;   
+        height: 40%;
         background-color: #B4B4FF;
         border-radius: 8px;
         img {
@@ -25,7 +25,7 @@
     }
     .right-card-container-1 {  
         display: flex;
-        width: 67%;
+        width: 50%;
         // background-color: grey;
         align-items: center;
         justify-content: flex-start;
@@ -41,14 +41,14 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        width: 67%;
+        width: 50%;
         // background-color: grey;
         p {
             margin-right: 10%;
         }
     }
     .right-card-container-2 {    
-        width: 33%;   
+        width: 49%;   
         height: 20%;
         border-radius: 8px;
 
