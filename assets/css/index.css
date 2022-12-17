@@ -29,6 +29,34 @@
   flex-direction: row;
 }
 
+.main-section {
+  box-sizing: border-box;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.main-section .main-section-left {
+  width: 50vw;
+}
+.main-section .main-section-left img {
+  margin-left: 10%;
+  border-radius: 8px;
+  height: 90%;
+}
+.main-section .main-section-right {
+  width: 50vw;
+}
+.main-section .main-section-right p:first-child {
+  font-size: 30px;
+  padding: 0px;
+}
+.main-section .main-section-right p {
+  margin-right: 10%;
+  text-align: justify;
+}
+
 .header {
   margin: 5%;
   width: 60vw;

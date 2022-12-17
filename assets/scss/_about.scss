@@ -1,0 +1,32 @@
+.main-section {
+    box-sizing: border-box;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top:5%;
+    
+    .main-section-left {
+        width: 50vw;
+        img {
+            margin-left: 10%;
+            border-radius: 8px;
+            
+            height:90%;
+        };
+    }
+
+    .main-section-right {
+        width:50vw;
+
+        p:first-child {
+            font-size: 30px;
+            padding: 0px;
+        }
+
+        p{
+            margin-right: 10%;
+            text-align: justify;
+        }
+    }
+}
