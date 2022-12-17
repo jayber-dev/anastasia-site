@@ -2,7 +2,6 @@
 .nav-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid grey;
 }
 .nav-container .left-side-nav {
   flex-direction: row;
@@ -53,13 +52,23 @@
   height: 100%;
 }
 .pruduct-card .right-card-container-1 {
+  display: flex;
   width: 67%;
-  background-color: grey;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pruduct-card .right-card-container-1 p {
+  margin-left: 10%;
 }
 
 .pruduct-card .left-card-container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   width: 67%;
-  background-color: grey;
+}
+.pruduct-card .left-card-container-2 p {
+  margin-right: 10%;
 }
 .pruduct-card .right-card-container-2 {
   width: 33%;
