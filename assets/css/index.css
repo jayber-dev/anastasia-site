@@ -31,30 +31,49 @@
 
 .main-section {
   box-sizing: border-box;
-  height: 70vh;
-  width: 100vw;
   display: flex;
   flex-direction: row;
   margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .main-section .main-section-left {
-  width: 50vw;
-}
-.main-section .main-section-left img {
-  margin-left: 10%;
+  height: 60vh;
+  max-width: 200vw;
+  min-width: 30vw;
+  display: flex;
+  justify-content: end;
   border-radius: 8px;
-  height: 90%;
+  background-image: url(../images/anastasia-main-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .main-section .main-section-right {
-  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main-section .main-section-right p:first-child {
+  display: block;
+  margin-top: 0px;
   font-size: 30px;
   padding: 0px;
 }
 .main-section .main-section-right p {
-  margin-right: 10%;
-  text-align: justify;
+  margin-top: 0px;
+  width: 90%;
+  font-size: 1.5vw;
+  text-align: start;
+}
+.main-section .main-section-right button {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  width: 70%;
 }
 
 .header {
