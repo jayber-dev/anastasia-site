@@ -63,8 +63,9 @@
 }
 .main-section .main-section-right p {
   margin-top: 0px;
-  width: 90%;
-  font-size: 24px;
+  margin-left: 5%;
+  width: 80%;
+  font-size: 1.4vw;
   text-align: start;
 }
 .main-section .main-section-right button {
