@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 .nav-container {
+  top: 0;
+  position: absolute;
   display: flex;
   flex-direction: row;
 }
@@ -36,7 +38,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -89,6 +91,7 @@
 
 .header {
   margin: 5%;
+  margin-top: 10%;
   width: 60vw;
 }
 
@@ -143,6 +146,8 @@
 }
 
 .nav-container {
+  top: 0;
+  position: absolute;
   display: flex;
   flex-direction: row;
 }
