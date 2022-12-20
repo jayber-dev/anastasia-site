@@ -90,7 +90,7 @@
 
 .section-audience {
     box-sizing: border-box;
-    height: 100vh;
+    // height: 100vh;
     h1{
         font-size: 128px;
         font-family: 'poppins';
@@ -107,22 +107,32 @@
         -webkit-text-fill-color: transparent;
     }
 
-    div {
+    .audience-wrapper{
         display: flex;
         flex-direction: row;
-        padding-left: 10%;
-        padding-right: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
 
-        div {
+        .left-side {
             padding-right: 0px;
             flex-direction: column;
             h4{
-                width: 100%;
+                // width: 100%;
+            }
+
+            p {
+                margin:0px;
             }
         }
-    div:last-child{
-        
-        justify-content: flex-end;
+    .right-side {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            margin:0px;
+            margin-left: 5%;
+        }
+            // justify-content: flex-end;
 
     } 
 

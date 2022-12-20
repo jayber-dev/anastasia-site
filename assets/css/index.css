@@ -258,7 +258,6 @@
 
 .section-audience {
   box-sizing: border-box;
-  height: 100vh;
 }
 .section-audience h1 {
   font-size: 128px;
@@ -275,21 +274,26 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.section-audience div {
+.section-audience .audience-wrapper {
   display: flex;
   flex-direction: row;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.section-audience div div {
+.section-audience .audience-wrapper .left-side {
   padding-right: 0px;
   flex-direction: column;
 }
-.section-audience div div h4 {
-  width: 100%;
+.section-audience .audience-wrapper .left-side p {
+  margin: 0px;
 }
-.section-audience div div:last-child {
-  justify-content: flex-end;
+.section-audience .audience-wrapper .right-side {
+  display: flex;
+  align-items: flex-end;
+}
+.section-audience .audience-wrapper .right-side p {
+  margin: 0px;
+  margin-left: 5%;
 }
 
 body {
