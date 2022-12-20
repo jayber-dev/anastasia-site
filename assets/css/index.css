@@ -176,11 +176,13 @@
 }
 
 .header-container {
-  width: 100vw;
-  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
 }
 .header-container img {
-  width: 100vw;
+  width: 100%;
+  height: 70vh;
 }
 .header-container .case-study {
   margin-left: 10%;
@@ -211,6 +213,39 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.section-overview {
+  box-sizing: border-box;
+  height: 100vh;
+}
+.section-overview h1 {
+  font-size: 128px;
+  font-family: "poppins";
+  font-style: "semiBold";
+  font-size: 128px;
+  line-height: 100px;
+  line-height: 52%;
+  margin: 0px;
+  padding: 5%;
+  padding-left: 10%;
+  background: -webkit-linear-gradient(#B4B4FF, #B1B1FE, #5154E7);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-overview div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.section-overview div p {
+  width: 50%;
+  font-size: 1.2vw;
+}
+.section-overview div p:first-child {
+  padding-right: 5%;
 }
 
 body {
