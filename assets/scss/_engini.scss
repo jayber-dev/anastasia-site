@@ -1,0 +1,45 @@
+@import '../scss/navbar';
+
+
+.header-container {
+    width: 100vw;
+    height: 100%;
+    img {
+        width: 100vw;
+    }
+
+    .case-study{
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .p-wrapper:first-child {
+            width: 33%;
+            
+            p{
+                width: 100%;
+            }
+        }
+
+        .p-wrapper:nth-child(2) {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            p{
+                margin-left: 40px;
+                width:30%;
+            }
+        }
+
+        .p-wrapper:last-child {
+            width: 33%;
+            direction: rtl;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+        }
+        
+    }
+}
