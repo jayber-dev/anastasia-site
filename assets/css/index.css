@@ -184,6 +184,15 @@ h4 {
   margin-left: 10%;
 }
 
+.persona {
+  margin-top: 10%;
+}
+
+.persona-p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .header-container {
   box-sizing: border-box;
   width: 100%;
