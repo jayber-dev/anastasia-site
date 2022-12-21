@@ -180,10 +180,17 @@
   flex-direction: row;
 }
 
+h4 {
+  margin-left: 10%;
+}
+
 .header-container {
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
+}
+.header-container h3 {
+  font-size: 1.7em;
 }
 .header-container img {
   width: 100%;
@@ -209,6 +216,7 @@
   align-items: center;
 }
 .header-container .case-study .p-wrapper:nth-child(2) p {
+  margin-top: 0px;
   margin-left: 40px;
   width: 30%;
 }
@@ -225,16 +233,15 @@
   height: 100vh;
 }
 .section-container h1 {
-  font-size: 128px;
+  font-size: 7vw;
   font-family: "poppins";
   font-style: "semiBold";
-  font-size: 128px;
   line-height: 100px;
   line-height: 52%;
   margin: 0px;
   padding: 5%;
   padding-left: 10%;
-  background: -webkit-linear-gradient(#B4B4FF, #B1B1FE, #5154E7);
+  background: -webkit-linear-gradient(160deg, #b4b4ff, #b1b1fe, #5154e7);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -256,44 +263,95 @@
   width: 50%;
 }
 
-.section-audience {
+.section-audience-research {
   box-sizing: border-box;
 }
-.section-audience h1 {
-  font-size: 128px;
+.section-audience-research h1 {
   font-family: "poppins";
   font-style: "semiBold";
-  font-size: 128px;
+  font-size: 7vw;
   line-height: 100px;
   line-height: 52%;
   margin: 0px;
   padding: 5%;
   padding-left: 10%;
-  background: -webkit-linear-gradient(#B4B4FF, #B1B1FE, #5154E7);
+  background: -webkit-linear-gradient(160deg, #b4b4ff, #b1b1fe, #5154e7);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.section-audience .audience-wrapper {
+.section-audience-research p {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.section-audience-research .audience-wrapper {
   display: flex;
   flex-direction: row;
   margin-left: 10%;
   margin-right: 10%;
 }
-.section-audience .audience-wrapper .left-side {
+.section-audience-research .audience-wrapper .left-side {
   padding-right: 0px;
   flex-direction: column;
 }
-.section-audience .audience-wrapper .left-side p {
+.section-audience-research .audience-wrapper .left-side p {
   margin: 0px;
 }
-.section-audience .audience-wrapper .right-side {
+.section-audience-research .audience-wrapper .right-side {
   display: flex;
   align-items: flex-end;
 }
-.section-audience .audience-wrapper .right-side p {
+.section-audience-research .audience-wrapper .right-side p {
   margin: 0px;
   margin-left: 5%;
+}
+
+.section-pain h1 {
+  font-family: "poppins";
+  font-style: "semiBold";
+  font-size: 7vw;
+  line-height: 100px;
+  line-height: 52%;
+  margin: 0px;
+  padding: 5%;
+  padding-left: 10%;
+  background: -webkit-linear-gradient(160deg, #b4b4ff, #b1b1fe, #5154e7);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-pain p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.section-pain h3 {
+  margin-top: 5%;
+  margin-left: 10%;
+  background: -webkit-linear-gradient(160deg, #b4b4ff, #b1b1fe, #5154e7);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-pain .img-container {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 5%;
+}
+.section-pain .img-container div:first-child img {
+  width: 100%;
+  align-items: flex-end;
+}
+.section-pain .img-container div:last-child {
+  display: flex;
+  align-items: center;
+}
+.section-pain .img-container div:last-child img {
+  width: 100%;
+  margin-bottom: 5%;
 }
 
 body {
