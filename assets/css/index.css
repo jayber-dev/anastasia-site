@@ -353,8 +353,10 @@
 .section-pain p {
   margin-left: 10%;
   margin-right: 10%;
+  font-size: calc(1vw + 1vh + 0.45vmin);
 }
 .section-pain h3 {
+  font-size: medium;
   margin-top: 5%;
   margin-left: 10%;
   background: -webkit-linear-gradient(160deg, #b4b4ff, #b1b1fe, #5154e7);
@@ -446,6 +448,46 @@
 }
 .section-journey span {
   font-weight: 600;
+}
+
+.section-wireframes h1 {
+  font-family: "poppins";
+  font-style: "semiBold";
+  font-size: 7vw;
+  line-height: 100px;
+  line-height: 52%;
+  margin: 0px;
+  padding: 5%;
+  padding-left: 10%;
+  background: -webkit-linear-gradient(160deg, #b4b4ff, #b1b1fe, #5154e7);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-wireframes div {
+  display: flex;
+  flex-direction: row;
+}
+.section-wireframes div p {
+  font-size: calc(1vw + 1vh + 0.5vmin);
+}
+.section-wireframes div div:first-child {
+  margin-left: 10%;
+  width: 50%;
+  background-color: #5154e7;
+  flex-direction: column;
+}
+.section-wireframes div div:first-child img {
+  width: 100%;
+}
+.section-wireframes div div:last-child {
+  margin-right: 10%;
+  width: 50%;
+  background-color: aqua;
+  flex-direction: column;
+}
+.section-wireframes div div:last-child img {
+  width: 100%;
 }
 
 body {
